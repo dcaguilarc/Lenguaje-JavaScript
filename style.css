@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    color: #333;
+}
+
+.weather-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.temp-info {
+    margin-left: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+h2 {
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+.additional-info {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sunny {
+    background-image: url('https://img.icons8.com/ios/452/sun.png');
+}
+
+.rainy {
+    background-image: url('https://img.icons8.com/ios/452/rainy.png');
+}
+
+.cloudy {
+    background-image: url('https://img.icons8.com/ios/452/cloud.png');
+}
